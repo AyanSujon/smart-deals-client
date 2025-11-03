@@ -16,8 +16,6 @@ const LatestProducts = ({latestProductsPromise}) => {
             }
             
         </div>
-        
-        
         </>
     );
 };

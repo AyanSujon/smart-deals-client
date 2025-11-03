@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 
 const Product = ({ product }) => {
@@ -21,9 +22,9 @@ const Product = ({ product }) => {
         </p>
 
         <div className="card-actions justify-center mt-2">
-          <button className="btn btn-outline btn-sm w-full border-purple-500 text-purple-600 hover:bg-purple-600 hover:text-white">
+          <Link to={`/product-details/${product._id}`}  className="btn btn-outline btn-sm w-full border-purple-500 text-purple-600 hover:bg-purple-600 hover:text-white">
             View Details
-          </button>
+          </Link>
         </div>
       </div>
     </div>
