@@ -23,7 +23,7 @@ const Product = ({ product }) => {
         </p>
 
         <div className="card-actions justify-center mt-2">
-          <Link to={`/product-details/${product._id}`}  className="btn btn-outline btn-sm w-full border-purple-500 text-purple-600 hover:bg-purple-600 hover:text-white">
+          <Link to={`/products/${product._id}`}  className="btn btn-outline btn-sm w-full border-purple-500 text-purple-600 hover:bg-purple-600 hover:text-white">
             View Details
           </Link>
         </div>
