@@ -9,7 +9,7 @@ const AllProducts = () => {
         // console.log(products);
     return (
         <>
-        <h2 className='my-10 text-3xl text-center'>All Products </h2>
+            <h2 className='my-10 text-3xl text-center'>All Products <span className='text-red-500'>({products.length})</span> </h2>
         <div className='container mx-auto grid gap-5 grid-cols-1 md:grid-cols-3 my-20'>
             {
                 products.map(product => <Product key={product._id} product={product}></Product>)

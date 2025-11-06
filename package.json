@@ -15,6 +15,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router": "^7.9.5",
+    "react-toastify": "^11.0.5",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {
@@ -22,7 +23,7 @@
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
-    "daisyui": "^5.3.10",
+    "daisyui": "^5.4.5",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",

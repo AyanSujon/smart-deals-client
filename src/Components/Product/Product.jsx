@@ -4,6 +4,7 @@ import { Link } from "react-router";
 
 const Product = ({ product }) => {
   return (
+    <>
     <div className="card w-full bg-base-100 shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100 rounded-xl">
       <figure className="h-40 bg-gray-100 rounded-t-xl overflow-hidden">
         <img
@@ -28,6 +29,7 @@ const Product = ({ product }) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
