@@ -68,7 +68,7 @@ const CreateProduct = ({ product }) => {
     console.log("Form submitted:", formData);
     toast.success("✅ Product saved successfully!");
 
-fetch(`http://localhost:3000/products`, {
+fetch(`https://smart-deals-server-nu.vercel.app/products`, {
     method: 'POST',
     headers: {
         "Content-Type": "application/json",

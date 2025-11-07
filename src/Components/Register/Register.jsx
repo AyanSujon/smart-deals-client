@@ -15,7 +15,7 @@ const handleGoogleSignIn = ()=> {
         }
 
         // Create user in the database.
-        fetch('http://localhost:3000/users', {
+        fetch('https://smart-deals-server-nu.vercel.app/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

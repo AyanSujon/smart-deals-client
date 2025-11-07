@@ -2,7 +2,7 @@ import React, { use } from 'react';
 import Product from '../Product/Product';
 
 
-const allProductsPromise = fetch('http://localhost:3000/products').then(res => res.json());
+const allProductsPromise = fetch('https://smart-deals-server-nu.vercel.app/products').then(res => res.json());
 
 const AllProducts = () => {
         const products = use(allProductsPromise);
